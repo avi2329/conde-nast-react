@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Navbar';
 import About from './About';
+import Home from './Home';
+import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -9,9 +10,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/about" exact element={<About />} />
+          <Route path='/Home' element={<Home />} />
 
 
 

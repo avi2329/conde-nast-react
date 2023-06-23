@@ -22,7 +22,99 @@ li {
   transition: 0.3s;
 }
 
+.image{
+  margin: 60px 0px 70px;
+  display: block;
+  padding: 0px 24px;
+  /* position: absolute; */
+  top: 30%;
+}
+#myVideo
+{
+  display: block;
+  width: 100%; 
+}
 
+.images-slide {
+  display: flex;
+  background-color: black;
+  /* height :50vh; */
+}
+
+.images-slide {
+  width: 200px;
+  height: 300px;
+  overflow:hidden;
+}
+
+.images-slide img {
+  width: 100%;
+height: 100%;
+animation: slideImages 5s linear infinite;
+white-space: nowrap;
+display: inline-block;
+}
+
+@keyframes slideImages {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.iconic-brands{
+  padding: 100px;
+  background-color:black;
+  color: white;
+
+}
+.iconic-brands span,h2{
+  padding-left: 28%;
+}
+.view-all-brands1{
+  padding-left: 390px;
+}
+.view-all-brands{  
+  margin: 40px; 
+background-color: black;
+  color: white;
+}
+
+.col-md-6 img{
+  margin-top: 7%;
+  margin-right: 19%;
+}
+.main-image h2 {
+  font: 34px millerDisplay,serif;
+  margin-top: 12%;
+  margin-left: -27%;
+} 
+.col-md-6 span{
+  padding: 0px 0px 0px 64px;
+  margin-right: 10px;
+  font: 18px "CN Sans", "Helvetica Nevue";
+  color: #6c6e70;
+}
+.main-image button{
+  background-color: white;
+  color:#6c6e70;
+  border-color: #6c6e70;
+  border-radius: 0;
+  margin-top: 1%;
+}
+.main-image button:hover{
+  color: #b9bcbf;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main-image1 button:hover{
+  color: #b9bcbf;
+  transition: 0.3s;
+  cursor: pointer;
+}
 
 
 /* .App {
