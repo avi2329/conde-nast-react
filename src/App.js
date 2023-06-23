@@ -12,6 +12,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/about" exact element={<About />} />
+
+
+
         </Routes>
 
       </Router>
